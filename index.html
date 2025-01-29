@@ -37,7 +37,7 @@
       <div class="container mt-4">
 	  
 <!-- GREETINGS GROUP -->
-<h3>Greetings</h3>      
+<h5>Greetings</h5>      
 <div class="list-group">
 <!-- Message 1 -->
 <div class="list-group-item d-flex align-items-center">
@@ -60,9 +60,35 @@
 </div>
 <!-- End Message 2 -->
         </div>
-
-      </div>
 <!-- END GREETINGS GROUP -->
+
+<!-- LOAD MONEY GROUP -->
+<h5 class="mt-1">Load Money</h5>      
+<div class="list-group">
+<!-- Message 1 -->
+<div class="list-group-item d-flex align-items-center">
+<span class="me-3 text-secondary" onclick="copyBoth('messageLMSITA', 'copied-labelLMSITA')" style="cursor: pointer;"><i class="fas fa-copy"></i></span>
+<div>
+<span>Submit in the App</span>
+<span id="copied-labelLMSITA" class="copied-label">Copied</span>
+</div>
+<span id="messageLMSITA" class="hidden-text">Paki-submit po ito sa YeheyRemit app for processing. Tap Load Money > Choose Bank, Enter Amount, and Upload Receipt. Thank you!</span>
+</div>
+<!-- End Message 1 -->
+<!-- Message 2 -->
+<div class="list-group-item d-flex align-items-center">
+<span class="me-3 text-secondary" onclick="copyBoth('messageLMWFA', 'copied-labelLMWFA')" style="cursor: pointer;"><i class="fas fa-copy"></i></span>
+<div>
+<span>Wait for Approval</span>
+<span id="copied-labelLMWFA" class="copied-label">Copied</span>
+</div>
+<span id="messageLMWFA" class="hidden-text">Ongoing na po ang matching ng mga load money request. Makikihintay na lang po ang approval. Thank you!</span>
+</div>
+<!-- End Message 2 -->
+        </div>
+<!-- END LOAD MONEY GROUP -->
+
+</div>
     </div>
   </div>
 
